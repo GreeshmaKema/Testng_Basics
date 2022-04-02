@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-27T21:19:06 IST" name="Suite" finished-at="2021-11-27T21:19:06 IST" duration-ms="139">
+    <groups>
+    </groups>
+    <test started-at="2021-11-27T21:19:06 IST" name="Test" finished-at="2021-11-27T21:19:06 IST" duration-ms="139">
+      <class name="sample.Assert_Equal_Example">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sample.Assert_Equal_Example@247d8ae]" started-at="2021-11-27T21:19:06 IST" name="beforeClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testBeforeclass_Example()[pri:0, instance:sample.Assert_Equal_Example@247d8ae]" started-at="2021-11-27T21:19:06 IST" name="testBeforeclass_Example" finished-at="2021-11-27T21:19:06 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome Naga] but found [Welcome Raju]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome Naga] but found [Welcome Raju]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at sample.Assert_Equal_Example.testBeforeclass_Example(Assert_Equal_Example.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeclass_Example -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Assert_Equal_Example@247d8ae]" started-at="2021-11-27T21:19:06 IST" name="afterClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sample.Assert_Equal_Example -->
+      <class name="sample.Assert_True_Example">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sample.Assert_True_Example@48974e45]" started-at="2021-11-27T21:19:06 IST" name="beforeClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testBeforeclass_Example()[pri:0, instance:sample.Assert_True_Example@48974e45]" started-at="2021-11-27T21:19:06 IST" name="testBeforeclass_Example" finished-at="2021-11-27T21:19:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeclass_Example -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Assert_True_Example@48974e45]" started-at="2021-11-27T21:19:06 IST" name="afterClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sample.Assert_True_Example -->
+      <class name="sample.BeforeMethod_Example">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sample.BeforeMethod_Example@6c130c45]" started-at="2021-11-27T21:19:06 IST" name="beforeMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testBeforeMethod_Example()[pri:0, instance:sample.BeforeMethod_Example@6c130c45]" started-at="2021-11-27T21:19:06 IST" name="testBeforeMethod_Example" finished-at="2021-11-27T21:19:06 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod_Example -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sample.BeforeMethod_Example@6c130c45]" started-at="2021-11-27T21:19:06 IST" name="afterMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sample.BeforeMethod_Example -->
+      <class name="sample.BeforeMethod_Example2">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sample.BeforeMethod_Example2@6d3a388c]" started-at="2021-11-27T21:19:06 IST" name="beforeMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testBeforeMethod_Example1()[pri:0, instance:sample.BeforeMethod_Example2@6d3a388c]" started-at="2021-11-27T21:19:06 IST" name="testBeforeMethod_Example1" finished-at="2021-11-27T21:19:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod_Example1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sample.BeforeMethod_Example2@6d3a388c]" started-at="2021-11-27T21:19:06 IST" name="afterMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sample.BeforeMethod_Example2@6d3a388c]" started-at="2021-11-27T21:19:06 IST" name="beforeMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testBeforeMethod_Example2()[pri:0, instance:sample.BeforeMethod_Example2@6d3a388c]" started-at="2021-11-27T21:19:06 IST" name="testBeforeMethod_Example2" finished-at="2021-11-27T21:19:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod_Example2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sample.BeforeMethod_Example2@6d3a388c]" started-at="2021-11-27T21:19:06 IST" name="afterMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- sample.BeforeMethod_Example2 -->
+      <class name="sample.Annotation_All_Example">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="beforeTest" finished-at="2021-11-27T21:19:06 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="beforeClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="beforeMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAnnotation_All_Example()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="testAnnotation_All_Example" finished-at="2021-11-27T21:19:06 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAnnotation_All_Example -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="afterMethod" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="afterClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sample.Annotation_All_Example@306f16f3]" started-at="2021-11-27T21:19:06 IST" name="afterTest" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- sample.Annotation_All_Example -->
+      <class name="sample.Beforeclass_Example">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:sample.Beforeclass_Example@6a84a97d]" started-at="2021-11-27T21:19:06 IST" name="beforeClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testBeforeMethod_Example1()[pri:0, instance:sample.Beforeclass_Example@6a84a97d]" started-at="2021-11-27T21:19:06 IST" name="testBeforeMethod_Example1" finished-at="2021-11-27T21:19:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeMethod_Example1 -->
+        <test-method signature="testBeforeclass_Example()[pri:0, instance:sample.Beforeclass_Example@6a84a97d]" started-at="2021-11-27T21:19:06 IST" name="testBeforeclass_Example" finished-at="2021-11-27T21:19:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeclass_Example -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Beforeclass_Example@6a84a97d]" started-at="2021-11-27T21:19:06 IST" name="afterClass" finished-at="2021-11-27T21:19:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sample.Beforeclass_Example -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
